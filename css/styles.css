@@ -7,6 +7,11 @@
 }
 body{
   font-family: "Quicksand", serif;
+  /* background: url(/img/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; */
 }
 :root{
     --Primary-color:#FEA301;
@@ -23,9 +28,124 @@ img{
     width: 100%;
 }
 a{
+    font-weight: 500;
+    font-size: 20px;
     text-decoration: none;
+    line-height: 25px;
+    cursor: pointer;
 }
 ul,li{
     list-style: none;
 }
+h1{
+    color: var(--Titel-color);
+}
+.container{
+    max-width: 1440px;
+    /* width: 75%; */
+    padding: 0px 30px;
+    margin-inline: auto;
+}
+.btn{
+    background-color: var(--Primary-color);
+    padding: 10px 50px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    color: #ffff;
+    font-weight: 600;
+}
+/*Header start here  */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    background: #ffff;
+}
+.logu{
+    display: flex;
+gap: 11px;
+align-items: center;
+}
+.heder_logu_img img{
+    max-width: 50px;
+}
+.logu h1{
+ font-size: 2rem;
+ font-weight: 700;
+ color: var(--Titel-color);
+ text-transform: uppercase;
+}
+.navbar_link ul{
+    display: flex;
+    gap: 2rem;
+}
+.navbar_link ul li:first-child a{
+    color: var(--Primary-color);
+    font-weight: 700;
+}
+.navbar_link ul li:nth-child(2) a{
+    color: var(--secondary-color);
+   
+}
+.navbar_link ul li:nth-child(3) a{
+    color: #05D4DF;
+   
+}
+.navbar_link ul li:nth-child(4) a{
+    color: #5D58EF;
+   
+}
 
+/* Hero section start here*/
+.hero{
+    margin: 100px 0px;
+}
+.hero_wrapper{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+  
+    
+}
+.hero_text{
+    max-width: 585px;
+}
+.hero_text h1{
+font-size: 56px;
+font-weight: 700;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.hero_text h1 span{
+color: var(--Primary-color);
+
+}
+.hero_text h1 span:nth-child(2){
+color: var(--secondary-color);
+
+}
+.hero_text p{
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    margin: 24px 0px;
+
+}
+.hero_text a{
+   background-color: var(--Titel-color);
+display: inline-block;
+
+}
+
+
+.hero_img div img{
+    max-width: 468px;
+}
