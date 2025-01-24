@@ -56,6 +56,15 @@ h1{
     -o-border-radius: 15px;
     color: #ffff;
     font-weight: 600;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.navbar_btn a:hover{
+    background-color: #faae2b;
+    color: #ffffffde;
 }
 /*Header start here  */
 .nav{
@@ -106,7 +115,7 @@ align-items: center;
 }
 .hero_wrapper{
     display: flex;
-    gap: 50px;
+    justify-content: space-between;
     align-items: center;
   
     
@@ -144,8 +153,12 @@ color: var(--secondary-color);
 display: inline-block;
 
 }
+.hero_text a:hover{
+ background-color: #000000e0;
+ color: #ffffffde;
 
-
-.hero_img div img{
+}
+.hero_img div{
     max-width: 468px;
 }
+  
