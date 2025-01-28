@@ -5,6 +5,14 @@
   .btn {
     padding: 20px 40px;
   }
+
+    .section_main_titel h1{
+      font-size:32px;
+      font-weight: 800;
+      margin-top: 40px 0px;
+      margin-bottom: 20px;
+  }
+
   /* Header section*/
   .nav {
     padding: 15px 0px;
@@ -22,6 +30,7 @@
     display: block;
   }
   /* Hero section */
+
   .hero {
     margin-top: 30px;
   }
@@ -56,4 +65,14 @@
   .hero_img {
     order: 1;
   }
+}
+
+/* Curriculam */
+.curriculam_wrapper {
+  gap: 40px;
+}
+.curriculam_card{
+  max-width: 365px;
+  padding: 55px 40px;
+  max-height: 475px;
 }
