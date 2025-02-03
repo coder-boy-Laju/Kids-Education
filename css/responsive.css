@@ -65,14 +65,21 @@
   .hero_img {
     order: 1;
   }
+  /*Details  */
+.details_left_section {
+  display: none;  
+  
+  }
+  .Details_right_titlel{
+    display: block;
+    margin-top: 40px;
+    font-weight: 800;
+   font-size: 40px;
+
+  }
+  .details_right_section{
+    justify-content:center;
 }
 
-/* Curriculam */
-.curriculam_wrapper {
-  gap: 40px;
-}
-.curriculam_card{
-  max-width: 365px;
-  padding: 55px 40px;
-  max-height: 475px;
+
 }
