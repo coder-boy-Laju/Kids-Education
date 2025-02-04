@@ -80,6 +80,13 @@
   .details_right_section{
     justify-content:center;
 }
+/* Footer */
+.footer_wrapper {
+  align-items:flex-start;
+  flex-direction: column;
+  gap: 50px;
+  padding-left: 0;
+}
 
 
 }
